@@ -17,11 +17,17 @@ function Cell(relief) {
 
 
 /** СОБЫТИЕ */
-function Event(features) {
+function GameEvent(features) {
     this.name = features.name;
     this.description = features.description;
     this.type = features.type;
     this.affect = features.affect;
+}
+
+
+/** ЖИВОТНОЕ */
+function Animal() {
+
 }
 
 
